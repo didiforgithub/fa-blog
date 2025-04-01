@@ -39,8 +39,8 @@ export type SiteConfig = {
 
 const siteConfig: SiteConfig = {
   title: 'Foundation Agents',
-  subtitle: 'Foundation Agents',
-  description: 'Towards Foundation Agents:  Where Are We? And Where Do We Go? ',
+  subtitle: 'A research organization dedicated to advancing Foundation Agent research and Agent Protocol',
+  description: 'A research organization dedicated to advancing Foundation Agent research and Agent Protocol',
   headerNavLinks: [
     {
       text: 'Home',
@@ -61,10 +61,6 @@ const siteConfig: SiteConfig = {
   ],
   footerNavLinks: [
     {
-      text: 'About',
-      href: '/about'
-    },
-    {
       text: 'GitHub',
       href: 'https://github.com/FoundationAgents'
     }
@@ -81,9 +77,9 @@ const siteConfig: SiteConfig = {
   ],
   hero: {
     title: 'Towards Foundation Agents:  Where Are We? And Where Do We Go? ',
-    text: `The term' Foundation Agent' refers to an autonomous and adaptive intelligent system meticulously designed to perceive various signals from its environment actively. This system continuously learns from experience, enabling it to refine and update its structured internal states. Additionally, it can reason about purposeful external and internal actions, autonomously navigating toward complex and long-term objectives.
+    text: `The term **"Foundation Agent"** refers to an autonomous and adaptive intelligent system meticulously designed to perceive various signals from its environment actively. This system continuously learns from experience, enabling it to refine and update its structured internal states. Additionally, it can reason about purposeful external and internal actions, autonomously navigating toward complex and long-term objectives.
 
-We establish the Foundation Agents organization to advance the development of Foundation Agents and, looking further into the future, the realization of Foundation Agents. We believe that the individual intelligence of agents will grow to surpass that of humans. Still, even in such a scenario, large-scale organizational collaboration will significantly enhance efficiency and the scale of solvable problems. Therefore, the Foundation Agents organization is committed to two missions:
+We establish the **Foundation Agents organization** to advance the development of Foundation Agents and, looking further into the future, the realization of Foundation Agents. We believe that the individual intelligence of agents will grow to surpass that of humans. Still, even in such a scenario, large-scale organizational collaboration will significantly enhance efficiency and the scale of solvable problems. Therefore, the Foundation Agents organization is committed to two missions:
 1. Advancing the development of Foundation Agents.
 2. Promoting the emergence of Agent Protocols (World, Action, Communication).
 
@@ -93,10 +89,10 @@ These goals require consensus, and we welcome all researchers who share this vis
     <img src="/home/brain.png">
 </div>
     `,
-    image: {
-      src: '/home/hero.png',
-      alt: 'Foundation Agents'
-    },
+    // image: {
+    //   src: '/home/hero.png',
+    //   alt: 'Foundation Agents'
+    // },
     actions: [
       { text: 'Github', href: 'https://github.com/FoundationAgents' },
       {
