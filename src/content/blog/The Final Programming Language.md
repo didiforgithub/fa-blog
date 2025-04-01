@@ -3,7 +3,12 @@ title: The Final Programming Language
 publishDate: 'Mar 28 2025'
 tags:
   - Insight
+seo:
+  image:
+    src: /blogs/the_final_programming_language/the_final_programming_language.png
 ---
+
+![the_final_programming_language](/blogs/the_final_programming_language/the_final_programming_language.png)
 
 # 1. Background
 

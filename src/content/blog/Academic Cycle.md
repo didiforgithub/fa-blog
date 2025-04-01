@@ -4,7 +4,12 @@ publishDate: 'Mar 28 2025'
 tags:
   - Insight
 isFeatured: true
+seo:
+  image:
+    src: /blogs/academic_cycle/academic_cycle.png
 ---
+
+![academic_cycle](/blogs/academic_cycle/academic_cycle.png)
 
 # 1. Background
 
