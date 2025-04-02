@@ -42,6 +42,15 @@ img {
   border-radius: 20px;
 }
 
+.heroimage {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  width: 100%;
+}
+.heroimage img {
+  width: 50%;
+}
 /* Todo, Migrating from Tailwind CSS to UnoCSS, need to config unocss, now i just copy */
 
 .prose-dante {

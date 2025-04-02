@@ -84,9 +84,9 @@ We establish the **Foundation Agents organization** to advance the development o
 2. Promoting the emergence of Agent Protocols (World, Action, Communication).
 
 These goals require consensus, and we welcome all researchers who share this vision to join us.
-<div class="flex w-full gap-[2px]">
-    <img class="w-[49%]" src="/home/agent_framework.png">
-    <img class="w-[49%]" src="/home/brain.png">
+<div class="heroimage">
+    <img src="/home/agent_framework.png">
+    <img src="/home/brain.png">
 </div>
     `,
     // image: {
