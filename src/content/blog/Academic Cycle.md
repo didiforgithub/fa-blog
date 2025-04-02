@@ -1,6 +1,6 @@
 ---
 title: Academic Cycle
-publishDate: 'Mar 28 2025'
+publishDate: 'Apr 02 2025'
 tags:
   - Insight
 isFeatured: true

@@ -1,6 +1,6 @@
 ---
 title: The Final Programming Language
-publishDate: 'Mar 28 2025'
+publishDate: 'Apr 02 2025'
 tags:
   - Insight
 seo:
