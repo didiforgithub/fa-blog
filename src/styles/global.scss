@@ -1,0 +1,51 @@
+@use '@fontsource-variable/inter';
+@use '@fontsource-variable/newsreader';
+@use '@fontsource-variable/newsreader/wght-italic.css';
+@use './prose.scss';
+
+:root {
+  --color-text-main: 23 23 23; /* #171717 */
+  --color-bg-main: 242 241 236; /* #F2F1EC */
+  --color-bg-muted: 234 233 225; /* #EAE9E1 */
+  --color-border-main: 23 23 23; /* #171717 */
+  font-family:
+    Inter Variable,
+    ui-sans-serif,
+    system-ui,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+  font-feature-settings: normal;
+  font-variation-settings: normal;
+  --un-font-serif: serif, Times, 'Times New Roman', Cambria, ui-serif, Newsreader Variable, 'Inter Variable';
+}
+html.dark {
+  --color-text-main: 242 241 236; /* #F2F1EC */
+  --color-bg-main: 5 8 27; /* #05081B */
+  --color-bg-muted: 10 13 36; /* #0A0D24 - slightly lighter than main for contrast */
+  --color-border-main: 242 241 236; /* #F2F1EC */
+}
+
+figcaption {
+  text-align: center;
+}
+
+blockquote {
+  border-left: 2px solid !important;
+  padding-left: 10px !important;
+  quotes: none !important;
+  font-size: 1.2em !important;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.heroimage {
+  --uno: flex justify-center gap-2 w-full;
+  img {
+    --uno: w-50%;
+  }
+}
