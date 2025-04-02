@@ -1,57 +1,45 @@
-@import '@fontsource-variable/inter';
-@import '@fontsource-variable/newsreader';
-@import '@fontsource-variable/newsreader/wght-italic.css';
-
-:root {
-  --color-text-main: 23 23 23; /* #171717 */
-  --color-bg-main: 242 241 236; /* #F2F1EC */
-  --color-bg-muted: 234 233 225; /* #EAE9E1 */
-  --color-border-main: 23 23 23; /* #171717 */
-  font-family:
-    Inter Variable,
-    ui-sans-serif,
-    system-ui,
-    sans-serif,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol',
-    'Noto Color Emoji';
-  font-feature-settings: normal;
-  font-variation-settings: normal;
-  --un-font-serif: serif, Times, 'Times New Roman', Cambria, ui-serif, Newsreader Variable, 'Inter Variable';
-}
-html.dark {
-  --color-text-main: 242 241 236; /* #F2F1EC */
-  --color-bg-main: 5 8 27; /* #05081B */
-  --color-bg-muted: 10 13 36; /* #0A0D24 - slightly lighter than main for contrast */
-  --color-border-main: 242 241 236; /* #F2F1EC */
-}
-
-figcaption {
-  text-align: center;
-}
-
-blockquote {
-  border-left: 2px solid !important;
-  padding-left: 10px !important;
-  quotes: none !important;
-  font-size: 1.2em !important;
-}
-
-img {
-  border-radius: 20px;
-}
-
-.heroimage {
-  display: flex;
-  justify-content: center;
-  gap: 2px;
-  width: 100%;
-}
-.heroimage img {
-  width: 50%;
-}
 /* Todo, Migrating from Tailwind CSS to UnoCSS, need to config unocss, now i just copy */
+
+.prose {
+  --tw-prose-body: #374151;
+  --tw-prose-headings: #111827;
+  --tw-prose-lead: #4b5563;
+  --tw-prose-links: #111827;
+  --tw-prose-bold: #111827;
+  --tw-prose-counters: #6b7280;
+  --tw-prose-bullets: #d1d5db;
+  --tw-prose-hr: #e5e7eb;
+  --tw-prose-quotes: #111827;
+  --tw-prose-quote-borders: #e5e7eb;
+  --tw-prose-captions: #6b7280;
+  --tw-prose-kbd: #111827;
+  --tw-prose-kbd-shadows: 17 24 39;
+  --tw-prose-code: #111827;
+  --tw-prose-pre-code: #e5e7eb;
+  --tw-prose-pre-bg: #1f2937;
+  --tw-prose-th-borders: #d1d5db;
+  --tw-prose-td-borders: #e5e7eb;
+  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #9ca3af;
+  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #9ca3af;
+  --tw-prose-invert-bullets: #4b5563;
+  --tw-prose-invert-hr: #374151;
+  --tw-prose-invert-quotes: #f3f4f6;
+  --tw-prose-invert-quote-borders: #374151;
+  --tw-prose-invert-captions: #9ca3af;
+  --tw-prose-invert-kbd: #fff;
+  --tw-prose-invert-kbd-shadows: 255 255 255;
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d1d5db;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #4b5563;
+  --tw-prose-invert-td-borders: #374151;
+  font-size: 1rem;
+  line-height: 1.75;
+}
 
 .prose-dante {
   --tw-prose-body: rgb(var(--color-text-main) / 100%);
@@ -392,46 +380,7 @@ img {
   line-height: 1.4285714;
   margin-top: 0.8571429em;
 }
-.prose {
-  --tw-prose-body: #374151;
-  --tw-prose-headings: #111827;
-  --tw-prose-lead: #4b5563;
-  --tw-prose-links: #111827;
-  --tw-prose-bold: #111827;
-  --tw-prose-counters: #6b7280;
-  --tw-prose-bullets: #d1d5db;
-  --tw-prose-hr: #e5e7eb;
-  --tw-prose-quotes: #111827;
-  --tw-prose-quote-borders: #e5e7eb;
-  --tw-prose-captions: #6b7280;
-  --tw-prose-kbd: #111827;
-  --tw-prose-kbd-shadows: 17 24 39;
-  --tw-prose-code: #111827;
-  --tw-prose-pre-code: #e5e7eb;
-  --tw-prose-pre-bg: #1f2937;
-  --tw-prose-th-borders: #d1d5db;
-  --tw-prose-td-borders: #e5e7eb;
-  --tw-prose-invert-body: #d1d5db;
-  --tw-prose-invert-headings: #fff;
-  --tw-prose-invert-lead: #9ca3af;
-  --tw-prose-invert-links: #fff;
-  --tw-prose-invert-bold: #fff;
-  --tw-prose-invert-counters: #9ca3af;
-  --tw-prose-invert-bullets: #4b5563;
-  --tw-prose-invert-hr: #374151;
-  --tw-prose-invert-quotes: #f3f4f6;
-  --tw-prose-invert-quote-borders: #374151;
-  --tw-prose-invert-captions: #9ca3af;
-  --tw-prose-invert-kbd: #fff;
-  --tw-prose-invert-kbd-shadows: 255 255 255;
-  --tw-prose-invert-code: #fff;
-  --tw-prose-invert-pre-code: #d1d5db;
-  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
-  --tw-prose-invert-th-borders: #4b5563;
-  --tw-prose-invert-td-borders: #374151;
-  font-size: 1rem;
-  line-height: 1.75;
-}
+
 .prose :where(picture > img):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
   margin-top: 0;
   margin-bottom: 0;
@@ -523,24 +472,6 @@ img {
   font-family: Times;
   font-family: serif;
   font-weight: 500;
-}
-.prose-dante {
-  --tw-prose-body: rgb(var(--color-text-main) / 100%);
-  --tw-prose-headings: rgb(var(--color-text-main) / 100%);
-  --tw-prose-lead: rgb(var(--color-text-main) / 100%);
-  --tw-prose-links: rgb(var(--color-text-main) / 100%);
-  --tw-prose-bold: rgb(var(--color-text-main) / 100%);
-  --tw-prose-counters: rgb(var(--color-text-main) / 100%);
-  --tw-prose-bullets: rgb(var(--color-text-main) / 100%);
-  --tw-prose-hr: rgb(var(--color-border-main) / 100%);
-  --tw-prose-quotes: rgb(var(--color-text-main) / 100%);
-  --tw-prose-quote-borders: rgb(var(--color-border-main) / 100%);
-  --tw-prose-captions: rgb(var(--color-text-main) / 100%);
-  --tw-prose-code: rgb(var(--color-text-main) / 100%);
-  --tw-prose-pre-code: #f4f4f5;
-  --tw-prose-pre-bg: #27272a;
-  --tw-prose-th-borders: rgb(var(--color-border-main) / 100%);
-  --tw-prose-td-borders: rgb(var(--color-border-main) / 100%);
 }
 
 @media (min-width: 640px) {

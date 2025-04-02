@@ -1,6 +1,15 @@
-import { defineConfig, presetAttributify, presetTypography, presetWind3, presetWebFonts, presetWind4 } from 'unocss';
+import {
+  defineConfig,
+  presetAttributify,
+  presetTypography,
+  presetWind3,
+  transformerCompileClass,
+  transformerDirectives,
+  transformerVariantGroup
+} from 'unocss';
 
 export default defineConfig({
+  transformers: [transformerDirectives(), transformerCompileClass(), transformerVariantGroup()],
   presets: [
     presetWind3(),
     presetAttributify()
@@ -37,16 +46,6 @@ export default defineConfig({
     ['text-main', { color: 'rgb(var(--color-text-main))' }],
     ['bg-muted', { 'background-color': 'rgb(var(--color-bg-muted))' }],
     ['border-main', { 'border-color': 'rgb(var(--color-border-main))' }],
-    ['font-serif', { 'font-family': 'Newsreader Variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif' }],
-    [
-      'prose-dante',
-      {
-        '--un-prose-body': 'var(--color-text-main)',
-        '--un-prose-headings': 'var(--color-text-main)',
-        '--un-prose-links': 'var(--color-text-main)',
-        '--un-prose-bullets': 'var(--color-text-main)',
-        '--un-prose-quotes': 'var(--color-text-main)'
-      }
-    ]
+    ['font-serif', { 'font-family': 'Newsreader Variable, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif' }]
   ]
 });

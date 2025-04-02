@@ -238,7 +238,7 @@ In the time it takes me to write a single byte, MGX (MetaGPT X) can generate tho
 
 But could this become the final programming language? Just as DeepSeek R1 can already write CUDA code superior to human efforts, perhaps in a few years, we'll all learn to use natural language programming—potentially the last programming language humanity will ever need to invent.
 
-# 3. References
+<!-- # 3. References
 
 > This part is not currently in use.
 
@@ -246,4 +246,4 @@ But could this become the final programming language? Just as DeepSeek R1 can al
 
    - O\*NET database version 27.2 contains 1,016 occupational classifications, each corresponding to a Standard Occupational Code (SOC). The paper uses this as its foundation to ensure the analysis reflects overall labor market trends.
 
-2. Anthropic Economic Index: https://assets.anthropic.com/m/2e23255f1e84ca97/original/Economic_Tasks_AI_Paper.pdf
+2. Anthropic Economic Index: https://assets.anthropic.com/m/2e23255f1e84ca97/original/Economic_Tasks_AI_Paper.pdf -->

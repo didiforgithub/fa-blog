@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
 import ImgModel from '../components/imgmodel.vue';
+import '../styles/global.scss';
 
 export type Props = HeadProps & { showHeader?: boolean };
 
@@ -18,7 +19,7 @@ const { showHeader = true, ...head } = Astro.props;
     <script>
       // Set dark theme as default if not already set
       if (!localStorage.theme) {
-        localStorage.theme = 'dark';
+        localStorage.theme = 'light';
       }
       if (localStorage.theme === 'dark') {
         document.documentElement.classList.add('dark');
