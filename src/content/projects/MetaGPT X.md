@@ -26,4 +26,4 @@ MetaGPT X represents a sophisticated multi-agent framework that orchestrates the
 
 Facilitates the efficient execution of comprehensive projects with minimal human intervention, while ensuring complete transparency and oversight over each procedural step.
 
-Explore: [MetaGPT X](https://mgx.dev/)
+Explore: [MetaGPT X](https://mgx.dev/?utm_source=fablog)

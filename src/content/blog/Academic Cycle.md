@@ -239,4 +239,4 @@ This may explain why organizational culture and cognitive frameworks are recogni
 
 The article's author, Wu Chenglin (Alexander Wu), created [MetaGPT](https://github.com/geekan/MetaGPT), which also demonstrates a complete academic cycle. They are not only the first multi-agent Coding Agents but have also published seven academic papers, ranking first and second in the LLM Agent field at ICLR 2024 and ICLR 2025, respectively.
 
-They have also launched a commercial product, MetaGPT X ([mgx.dev](https://mgx.dev)), showcasing how academic cycles can be implemented in practice. It is the world's first multi-agent Coding Agents product, achieving $1 million ARR just one month after its launch. This is the best proof of the effectiveness of the academic cycle.
+They have also launched a commercial product, MetaGPT X ([mgx.dev](https://mgx.dev/?utm_source=fablog)), showcasing how academic cycles can be implemented in practice. It is the world's first multi-agent Coding Agents product, achieving $1 million ARR just one month after its launch. This is the best proof of the effectiveness of the academic cycle.
