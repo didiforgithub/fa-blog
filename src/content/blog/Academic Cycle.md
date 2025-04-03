@@ -159,8 +159,7 @@ Naturally, even with complete dedication, we sometimes find ourselves less produ
 All these behaviors contribute to achieving a flow state, an extraordinarily efficient cognitive condition attainable through moderate challenges within a relaxed environment.
 
 <figure>
-  <img src="/blogs/academic_cycle/p1.png">
-  <figcaption>The flow state markedly boosts efficiency</figcaption>
+  <img class="mx-auto" src="/blogs/academic_cycle/p3.png">
 </figure>
 
 As depicted in the diagram, when individuals enter a flow state, they tend to overlook most surrounding distractions and lose track of time. Tasks are completed rapidly while maintaining a sense of emotional calmness, typically resulting in several times the normal efficiency. If an organization fosters an environment conducive to the accessibility of flow states, the collective productivity coefficient can increase from O(N) to O(kN), where k may be several times greater or even exceed ten. This signifies a fundamental transition from linear to enhanced linear productivity scaling.
