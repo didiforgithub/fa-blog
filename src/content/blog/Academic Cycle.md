@@ -76,7 +76,7 @@ But how does innovation actually happen? I believe systematic innovation depends
 
 A few months ago, while writing a PhD recommendation letter for a student, I noticed almost every top academic institution ranked the same criterion first: critical thinking. This priority likely stems from recognizing that critical thinking is essential for efficiently advancing scientific boundaries.
 
-The roots of science lie in philosophy, with critical thinking originating in fifth-century BCE Greece. Socrates, a philosopher, whose name derives from the Greek words φίλος (philos), meaning "love," and σοφία (sophia), meaning "wisdom," was a true "lover of wisdom." He used the Socratic method to prompt his students to question assumptions and critically assess evidence, embodying an early form of critical thinking. Aristotle combined mathematical techniques with philosophical questions, turning empirical discussions into structured syllogisms. Together, these thinkers significantly contributed to the evolution of critical thinking worldwide.
+Science originates from philosophy, and the roots of Critical Thinking can be traced back to fifth-century BCE ancient Greece. Socrates, who referred to himself as a philosopher (from the Greek φίλος (philos) meaning 'love' and σοφία (sophia) meaning 'wisdom', thus 'lover of wisdom'), encouraged his students to question assumptions and examine evidence through the 'Socratic method', which is regarded as an early practice of critical thinking. Aristotle systematically integrated mathematical methods with philosophical speculation, transforming empirical debates into formalized syllogisms. Together, they contributed significantly to the advancement of Critical Thinking in the world.
 
 Edward Glaser first proposed the term "critical thinking " in 1941. By 1987, the National Council for Excellence in Critical Thinking established a consensus definition through the Delphi Project, describing it as "self-regulatory judgment based on evidence, concepts, methodologies, and other standards."
 
@@ -114,7 +114,7 @@ At this point, we need to consider another question: high-evidence standards wor
 
 Not necessarily. Recommendation systems operate in well-defined, easily verifiable environments. Most challenges in other fields involve lengthy experimental cycles where hypotheses can't be rapidly confirmed or refuted. Similar to the difficulty in implementing Process Reward Models (PRM), perhaps we often don't need rigorous evidence, but rather what I call "fuzzy correctness."
 
-Groundbreaking innovations typically emerge from combinations of fuzzily correct components. Regarding LLM development, papers I frequently reference include Tomas Mikolov's word2vec, which demonstrated that word combinations like "man-woman" and "king-queen" have similar vector distances, and Transformer architectures, which increased parallelization and reduced computation compared to RNNs. These were only fuzzily correct components for LLMs, as their future benefits were unknown and difficult to estimate.
+Groundbreaking innovations typically emerge from combinations of fuzzily correct components. Regarding LLM development, papers I frequently mention include Tomas Mikolov's word2vec, which demonstrated that word combinations like "man-woman" and "king-queen" have similar vector distances, and Transformer architectures, which increased parallelization and reduced computation compared to RNNs. These were only fuzzily correct components for LLMs, as their future benefits were unknown and difficult to estimate.
 
 Evaluating cutting-edge problems is extraordinarily challenging, often as difficult as solving them. Who could have predicted GPT-4's powerful brand effect that drove global adoption? Likely no one, probably not even OpenAI, before its release. Similarly, who could have foreseen R1's current level of breakthrough success? Presumably no one, including DeepSeek.
 
@@ -126,7 +126,7 @@ Nevertheless, the pursuit of evidence must permeate the entire organization, est
 
 Collective critical thinking is challenging to achieve in most fields. It requires individuals with essential critical thinking abilities alongside qualities like sincerity, goodwill, and optimism, all within an organization with appropriate standard operating procedures. One crucial SOP is "focus on issues, not people," which effectively encourages collective rationality.
 
-In a rational group environment, everyone must distinguish between facts and opinions in their communications. This skill is relatively accessible even for those without the entire critical thinking process. When confronted with a questionable opinion, the appropriate response is simply: "What evidence supports this view?" When facing unfamiliar terminology, ask: "How is this term defined?" If someone lacks research skills, teach them effective search techniques. If emotions creep into discussions, guide them back to the "focus on issues, not people" principle.
+In a rational group environment, everyone must distinguish between facts and opinions in their communications. This skill is relatively accessible even for those without the entire critical thinking process. When confronted with a questionable opinion, the appropriate response is simply: "What evidence supports this view?" When facing unfamiliar terminology, ask: "How is this term defined?" If someone lacks search skills, teach them effective search techniques. If emotions creep into discussions, guide them back to the "focus on issues, not people" principle.
 
 This approach addresses typical problems like individual bias. Despite considering myself reasonably intelligent, I make frequent mistakes. I must encourage everyone to point out my errors, listen carefully to feedback, quickly accept valid points, and thoughtfully defend positions I believe are correct until a decision cycle completes. While collective critical thinking requires most individuals to possess critical thinking skills, this alone is insufficient. We can achieve true collective rationality only when everyone encourages participation and treats others with goodwill.
 
@@ -174,7 +174,7 @@ A prominent limitation of humanity is hesitation. Numerous challenges are intrin
 
 Individuals with commendable credentials frequently exhibit reluctance to embark on new endeavors, as innovation inherently involves elements of probability. This reluctance ultimately diminishes the potential for innovation itself, necessitating proactive engagement before assessment; one cannot ascertain what lies beyond a closed door without first opening it.
 
-Fleming's discovery of penicillin did not result from intentional experimentation; rather, it emerged during his systematic inquiries while he maintained a vigilant awareness of unexpected outcomes. Within the realm of academia, the principle of undertaking action prior to achieving perfection is regarded as fundamental. Individuals who await "inspiration" or the "ideal moment" frequently accomplish little to nothing. As Einstein remarked, "I have no special talent. I am only passionately curious." This relentless curiosity drove him to engage in continuous experimentation rather than defer his efforts in search of inspiration.
+Fleming's discovery of penicillin was not intentional, but rather due to his initial experimentation and vigilant observation of unexpected phenomena. In academic circles, acting before achieving perfection is a fundamental principle. Those who wait for 'inspiration to strike' or the 'perfect moment' often achieve nothing. As Einstein said, 'I have no special talent. I am only passionately curious.' This curiosity drove him to experiment continuously, rather than waiting for inspiration.
 
 ### 3.3.2 Record Everything
 
@@ -203,7 +203,7 @@ In truth, we must uphold authenticity by addressing ambiguous matters, articulat
 
 Individuals frequently express concern regarding the potential for misspoken words or imprecise reasoning that may lead to confusion or misinterpretation by others. Nevertheless, it is crucial to recognize that perfect precision is not always requisite. Instead, one should articulate one's perspectives candidly, employing a reasonable degree of rigor. Even when others may disagree, seeking correction is not detrimental; the individual faces no personal loss while simultaneously acquiring valuable knowledge that can yield long-term benefits.
 
-## 3.4 Global Optimality Pursuit
+## 3.4 Pursuing Global Optimization
 
 A common organizational problem involves mistaking partial optimization for global optimization. At its core, the academic cycle represents a continuous exploration process seeking global optima.
 
@@ -236,8 +236,8 @@ Within this framework, innovation is no longer contingent upon extraordinary gen
 
 Ultimately, the academic cycle reveals a profound truth: innovation's essence lies not in technological tools or methodologies, but in how we organize collective thinking. When an organization systematically transcends the limitations of human cognition, breakthroughs emerge as naturally as water flowing downhill.
 
-This may explain why organizational culture and cognitive frameworks are recognized as paramount competitive advantages in today's swiftly evolving technological landscape. While algorithms may ultimately be outperformed, the academic cycle, once established, transforms into an inexhaustible source of innovation.
+This may explain why organizational culture and cognitive frameworks are recognized as paramount competitive advantages in today's swiftly evolving technological landscape. While algorithms may ultimately be outperformed, the academic cycle, once established, transforms into an inexhaustible source of innovation
 
-The article's author, Wu Chenglin (Alexander Wu), created [MetaGPT](https://github.com/geekan/MetaGPT), which also demonstrates a complete academic cycle. They are not only the first multi-agent Coding Agents but have also published seven academic papers, ranking first and second in the LLM Agent field at ICLR 2024 and ICLR 2025, respectively.
+The article's author, Chenglin Wu (Alexander Wu), created [MetaGPT](https://github.com/geekan/MetaGPT), which also demonstrates a complete academic cycle. They are not only the first multi-agent Coding Agents but have also published seven academic papers, ranking first and second in the LLM Agent field at ICLR 2024 and ICLR 2025, respectively.
 
 They have also launched a commercial product, MetaGPT X ([mgx.dev](https://mgx.dev/?utm_source=fablog)), showcasing how academic cycles can be implemented in practice. It is the world's first multi-agent Coding Agents product, achieving $1 million ARR just one month after its launch. This is the best proof of the effectiveness of the academic cycle.
