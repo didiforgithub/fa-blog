@@ -17,9 +17,9 @@ About the Author: Alexander Wu (geekan) is the creator of MetaGPT, a startup CEO
 
 # 2. Introduction
 
-Numerous individuals have recently sought my insight regarding the technical principles underlying DeepSeek R1. However, I would prefer to focus on a distinct aspect: the organizational factors that facilitated DeepSeek's development of R1. DeepSeek's core advantage is derived from its organizational academic cycle. This structural element significantly contributed to its ability to create R1, while the specific algorithms are less important and destined to face obsolescence.
+Since January 22, numerous individuals have engaged in discussions with me regarding the principles underlying DeepSeek R1. However, the enthusiasm for technology typically resides within a small contingent of individuals. Today, I would prefer to focus on a different aspect: why DeepSeek was the one who created R1. The true merit of DeepSeek is founded in its status as an organization that emphasizes the academic cycle, which has significantly influenced its capability to create R1. In comparison, the algorithm itself holds less significance. As time progresses, the innovative algorithms of today may be supplanted at any moment; however, a distinguished organization consistently propels the advancement of technology.
 
-- **Academic Cycle: A process that advances scientific boundaries through continuous, granular innovations driven by organization-wide critical thinking.**
+- Academic Cycle: Engaging in organizational-level critical thinking to consistently create atomized innovations that advance the frontiers of science.
 
 The strength of an organization acts as a catalyst for innovation, thereby establishing a competitive advantage. This phenomenon has recurred consistently over the past decade. ByteDance exemplifies this trend, having entered the market later while outperforming established entities such as Tencent, Meta, and Google in the realm of recommendation systems. This notable success can be attributed to ByteDance's foundational organizational structure and its stringent A/B testing methodology, which cultivated an academic cycle and yielded superior performance.
 
@@ -162,7 +162,7 @@ All these behaviors contribute to achieving a flow state, an extraordinarily eff
   <img class="mx-auto" src="/blogs/academic_cycle/p3.png">
 </figure>
 
-As depicted in the diagram, when individuals enter a flow state, they tend to overlook most surrounding distractions and lose track of time. Tasks are completed rapidly while maintaining a sense of emotional calmness, typically resulting in several times the normal efficiency. If an organization fosters an environment conducive to the accessibility of flow states, the collective productivity coefficient can increase from O(N) to O(kN), where k may be several times greater or even exceed ten. This signifies a fundamental transition from linear to enhanced linear productivity scaling.
+As illustrated in the diagram, when individuals enter a state of flow, they tend to disregard most external distractions and lose track of time. Tasks are accomplished rapidly while preserving a sense of emotional calmness, typically yielding efficiency levels several times beyond the norm. Should an organization promote an environment that facilitates access to flow states, the collective productivity coefficient may escalate from O(N) to O(kN), where k could potentially be several times greater or even exceed ten. This represents a significant shift from linear to enhanced linear productivity scaling.
 
 ## 3.3 Imperfection-Informed Systems Design
 
@@ -171,8 +171,10 @@ In reality, even the most exceptional individuals possess numerous flaws.
 ### 3.3.1 Start First, Don't Hesitate
 
 A prominent limitation of humanity is hesitation. Numerous challenges are intrinsically ambiguous, making predicting future outcomes complex when faced with these issues.
+
 Individuals with commendable credentials frequently exhibit reluctance to embark on new endeavors, as innovation inherently involves elements of probability. This reluctance ultimately diminishes the potential for innovation itself, necessitating proactive engagement before assessment; one cannot ascertain what lies beyond a closed door without first opening it.
-Fleming's discovery of penicillin was not a result of intentional experimentation; instead, it occurred as he engaged in systematic inquiries and maintained a vigilant awareness of unexpected outcomes. Within academic circles, the principle of taking action before achieving perfection is considered fundamental. Individuals who await "inspiration" or the " perfect moment" often accomplish little to nothing. As Einstein noted, "I have no special talent. I am only passionately curious." This insatiable curiosity compelled him to continuously experiment rather than postpone his efforts for inspiration.
+
+Fleming's discovery of penicillin did not result from intentional experimentation; rather, it emerged during his systematic inquiries while he maintained a vigilant awareness of unexpected outcomes. Within the realm of academia, the principle of undertaking action prior to achieving perfection is regarded as fundamental. Individuals who await "inspiration" or the "ideal moment" frequently accomplish little to nothing. As Einstein remarked, "I have no special talent. I am only passionately curious." This relentless curiosity drove him to engage in continuous experimentation rather than defer his efforts in search of inspiration.
 
 ### 3.3.2 Record Everything
 

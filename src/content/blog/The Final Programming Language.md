@@ -8,7 +8,7 @@ seo:
     src: /blogs/the_final_programming_language/the_final_programming_language.png
 ---
 
-![the_final_programming_language](/blogs/the_final_programming_language/the_final_programming_language.png)
+![the_final_programming_language](/blogs/the_final_programming_language/the_final_programming_language.jpg)
 
 # 1. Background
 
@@ -44,7 +44,7 @@ I invested considerable time forcing myself through most of LangChain's logic, m
 
 Along the way, I created a comprehensive document exceeding 10,000 words. During my analysis, I initially grew excited upon discovering what appeared to be numerous algorithm implementations, thinking I had found what I was seeking. However, as I delved deeper, something felt off—beneath layers of abstraction, the core logic was elementary and not what I had envisioned.
 
-Why would such straightforward logic require over 90,000 lines of code? I suspected a few hundred lines might suffice. Reflecting on my own experience, I believe my programming skills remained viable despite focusing on company management for several years after writing code for over a decade. I rolled up my sleeves and decided to build my own solution.
+What rationale could justify the utilization of over 90,000 lines of code for such seemingly straightforward logic? I had anticipated that a few hundred lines may be sufficient. Upon reflecting on my prior experiences, I maintain that my programming skills have remained relevant, notwithstanding my focus on company management for several years following a decade of coding. Consequently, I took the initiative to develop my own solution.
 
 Still, hesitation lingered. To bolster my confidence, I first wrote over 30 analytical documents examining different open-source libraries. Voyager and Generative Agents impressed me most among the open-source projects I studied—their code architecture and conceptual approaches were genuinely innovative. Being completely honest, even looking ahead to 2025, I still consider their approaches and implementation advanced.
 
@@ -166,7 +166,7 @@ When Lilian Weng published her blog about AI agents on June 23rd, plans changed.
 
 Before publishing, we discussed naming options. While I was fond of "meta-programming," others found it too lengthy. I asked GPT-4 to generate and evaluate over 40 potential names. Its highest-rated suggestion was "MetaGPT," which I ultimately adopted after careful consideration.
 
-I published MetaGPT at https://github.com/geekan/MetaGPT/ on June 30, 2023. In July alone, it reached #1 on GitHub Trending 17 times.
+I published MetaGPT at https://github.com/geekan/MetaGPT/ on June 30, 2023. In the month of August, it achieved the distinction of ranking #1 on GitHub Trending on 17 separate occasions.
 
 After release, our community expanded rapidly. Some members suggested writing a research paper, a welcome proposal since I lacked the time to do so myself. This led to a community-sourced paper (https://arxiv.org/abs/2308.00352). I was pleased with the quality and sincerely appreciated the community members who trusted my code.
 
