@@ -97,7 +97,7 @@ These goals require consensus, and we welcome all researchers who share this vis
       { text: 'Github', href: 'https://github.com/FoundationAgents' },
       {
         text: 'Paper ',
-        href: 'https://github.com/FoundationAgents/awesome-foundation-agents/blob/main/assets/Advances%20and%20Challenges%20in%20Foundation%20Agents.pdf'
+        href: 'https://arxiv.org/abs/2504.01990v1'
       }
     ]
   },
