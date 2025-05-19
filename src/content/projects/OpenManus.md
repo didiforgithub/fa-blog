@@ -28,4 +28,4 @@ OpenManus is an open-source framework designed for developing general AI agents 
 
 Facilitates the creation, customization, and deployment of advanced AI agents proficient in managing intricate workflows, ranging from SEO optimization to data analysis. These agents operate with clearly defined execution processes and consistently deliver high-quality results while also guaranteeing comprehensive user control and open-source accessibility.
 
-[Learn more about OpenManus →](https://github.com/mannaandpoem/OpenManus)
+[Learn more about OpenManus →](https://github.com/FoundationAgents/OpenManus)
