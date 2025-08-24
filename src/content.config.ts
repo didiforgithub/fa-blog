@@ -45,4 +45,29 @@ const projects = defineCollection({
     })
 });
 
-export const collections = { blog, pages, projects };
+const papers = defineCollection({
+    loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/papers' }),
+    schema: z.object({
+        title: z.union([
+            z.string(),
+            z.object({
+                text: z.string(),
+                url: z.string().url().optional()
+            })
+        ]),
+        affiliations: z.array(z.string()).optional().default([]),
+        links: z
+            .record(
+                z.union([
+                    z.string().url(),
+                    z.object({ url: z.string().url().optional(), color: z.string().regex(/^(#([0-9a-fA-F]{3}|[0-9a-fA-F]{6})|[a-zA-Z]+)$/).optional(), label: z.string().optional() })
+                ])
+            )
+            .optional(),
+        image: z.string().optional(),
+        priority: z.number().optional(),
+        seo: seoSchema.optional()
+    }),
+});
+
+export const collections = { blog, pages, projects, papers };

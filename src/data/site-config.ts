@@ -35,6 +35,7 @@ export type SiteConfig = {
   subscribe?: Subscribe;
   postsPerPage?: number;
   projectsPerPage?: number;
+  papersPerPage?: number;
 };
 
 const siteConfig: SiteConfig = {
@@ -49,6 +50,10 @@ const siteConfig: SiteConfig = {
     {
       text: 'Projects',
       href: '/projects'
+    },
+    {
+      text: 'Papers',
+      href: '/papers'
     },
     {
       text: 'Blog',
@@ -102,7 +107,8 @@ These goals require consensus, and we welcome all researchers who share this vis
     ]
   },
   postsPerPage: 8,
-  projectsPerPage: 8
+  projectsPerPage: 8,
+  papersPerPage: 8
 };
 
 export default siteConfig;
