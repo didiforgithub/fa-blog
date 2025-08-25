@@ -3,9 +3,9 @@ title:
   text: 'Improving Context Fidelity via Native Retrieval-Augmented Reasoning'
   url: 'https://openreview.net/forum?id=qTsU1QLOph'
 affiliations:
-  - 'Université de Montréal'
+  - 'UdeM'
   - 'DeepWisdom'
-  - 'Mcgill university'
+  - 'McGill'
   - 'Simpleway.AI'
 links:
   EMNLP 2025 Oral:

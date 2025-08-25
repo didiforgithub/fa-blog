@@ -13,10 +13,10 @@ affiliations:
   - 'Yale University'
   - 'NUS'
 links:
-  github:
+  GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/tanghaom/AppEvalPilot'
-  arxiv:
+  arXiv:
     color: '#0d7ff0'
     url: 'https://arxiv.org/abs/2508.14104'
 image: '/paper/ydkuyc/ydkuyc.png'

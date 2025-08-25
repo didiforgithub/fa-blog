@@ -3,14 +3,14 @@ title:
   text: 'Atom of Thoughts for Markov LLM Test-Time Scaling'
   url: 'https://arxiv.org/abs/2502.12018'
 affiliations:
-  - 'The Hong Kong University of Science and Technology (Guangzhou)'
+  - 'HKUST(GZ)'
   - 'DeepWisdom'
-  - 'Renmin University of China'
+  - 'RUC'
 links:
-  github:
+  GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/qixucen/atom'
-  arxiv:
+  arXiv:
     color: '#0d7ff0'
     url: 'https://arxiv.org/abs/2502.12018'
 image: '/paper/aotfm/aotfm.png'
