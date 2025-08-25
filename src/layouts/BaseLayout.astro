@@ -8,9 +8,19 @@ import ImgModel from '../components/imgmodel.vue';
 import Posthog from '../components/posthog.astro';
 import '../styles/global.scss';
 
-export type Props = HeadProps & { showHeader?: boolean };
+export type Props = HeadProps & { showHeader?: boolean; maxWidth?: 'xl' | '2xl' | '3xl' | '4xl' | '5xl' | '6xl' | '7xl' };
 
-const { showHeader = true, ...head } = Astro.props;
+const { showHeader = true, maxWidth = '3xl', ...head } = Astro.props;
+
+const maxWidthClasses = {
+  'xl': 'max-w-xl',
+  '2xl': 'max-w-2xl', 
+  '3xl': 'max-w-3xl',
+  '4xl': 'max-w-4xl',
+  '5xl': 'max-w-5xl',
+  '6xl': 'max-w-6xl',
+  '7xl': 'max-w-7xl'
+} as const;
 ---
 
 <!doctype html>
@@ -30,10 +40,10 @@ const { showHeader = true, ...head } = Astro.props;
     <ClientRouter />
   </head>
   <body class="bg-main text-main">
-    <div class="flex flex-col min-h-screen px-4 md:px-8">
+    <div class={`flex flex-col min-h-screen px-4 md:px-8 mx-auto ${maxWidthClasses[maxWidth]}`}>
       <Nav />
       {showHeader && <Header />}
-      <main class="grow w-full max-w-3xl mx-auto">
+      <main class="grow w-full">
         <slot />
       </main>
       <Footer />

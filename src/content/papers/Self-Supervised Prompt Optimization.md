@@ -4,16 +4,16 @@ title:
   url: 'https://arxiv.org/abs/2502.06855'
 affiliations:
   - 'DeepWisdom'
-  - 'The Hong Kong University of Science and Technology (Guangzhou)'
-  - 'Independent Researcher'
-  - 'Yale University'
+  - 'HKUST(GZ)'
+  - 'Independent'
+  - 'Yale'
 links:
   EMNLP 2025 Oral:
     color: '#f00d0d'
-  github:
+  GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/FoundationAgents/SPO'
-  arxiv:
+  arXiv:
     color: '#0d7ff0'
     url: 'https://arxiv.org/abs/2502.06855'
 image: '/paper/sspo/sspo.png'

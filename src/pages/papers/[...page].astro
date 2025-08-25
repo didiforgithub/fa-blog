@@ -6,7 +6,7 @@ import Pagination from '../../components/Pagination.astro';
 import PaperCard from '../../components/PaperCard.astro';
 import siteConfig from '../../data/site-config';
 
-export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
+export async function getStaticPaths() {
     const papers = (await getCollection('papers')).sort((a, b) => {
         const pa = a.data.priority ?? null;
         const pb = b.data.priority ?? null;
@@ -18,37 +18,34 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
         const ya = a.data.year ?? -Infinity;
         const yb = b.data.year ?? -Infinity;
         if (yb !== ya) return yb - ya;
-    // final stable fallback: sort by slug, id, or title text — ensure strings to avoid undefined.localeCompare
-    const sa = a.slug ?? a.id ?? (typeof a.data.title === 'string' ? a.data.title : (a.data.title && a.data.title.text) ? a.data.title.text : '');
-    const sb = b.slug ?? b.id ?? (typeof b.data.title === 'string' ? b.data.title : (b.data.title && b.data.title.text) ? b.data.title.text : '');
-    return String(sa).localeCompare(String(sb));
+        // final stable fallback: sort by slug, id, or title text — ensure strings to avoid undefined.localeCompare
+        const sa = a.slug ?? a.id ?? (typeof a.data.title === 'string' ? a.data.title : (a.data.title && a.data.title.text) ? a.data.title.text : '');
+        const sb = b.slug ?? b.id ?? (typeof b.data.title === 'string' ? b.data.title : (b.data.title && b.data.title.text) ? b.data.title.text : '');
+        return String(sa).localeCompare(String(sb));
     });
-    return paginate(papers, { pageSize: siteConfig.papersPerPage || 6 });
+    return [{ params: { page: undefined }, props: { papers } }];
 }
 
-type Props = { page: Page<CollectionEntry<'papers'>> };
+type Props = { papers: CollectionEntry<'papers'>[] };
 
-const { page } = Astro.props;
-const papers = page.data;
+const { papers } = Astro.props;
 ---
 
 <BaseLayout
     title="Papers"
     description="Academic publications and research papers from Foundation Agents"
     showHeader={false}
+    maxWidth="6xl"
 >
+
     <div class="mb-12">
         <h1 class="mb-6 text-2xl leading-tight font-serif italic sm:mb-8 sm:text-4xl">Paper List</h1>
-
-        </p>
     </div>
 
-    <div class="space-y-8">
+    <div class="w-full mx-auto space-y-4">
         {papers.map((paper) => (
             <PaperCard paper={paper} />
         ))}
     </div>
-
-    <Pagination page={page} class="my-16 sm:my-24" />
 
 </BaseLayout>

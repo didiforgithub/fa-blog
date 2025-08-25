@@ -16,55 +16,60 @@ const titleHref = (title && typeof title === 'object' && title.url) ? title.url 
 
 ---
 
-<article class:list={["pb-8", className]}>
-  <article class:list={["pb-8", className]}>
-    <div class="flex flex-row items-start gap-8">
-      {/* 左侧图片 */}
-      <div
-        class="flex-shrink-0 flex items-center justify-center rounded-none p-2"
-        style="max-width:298px; max-height:298px; overflow:visible; border-radius:0;"
-      >
-        {imageSrc ? (
-          <img
-            src={imageSrc}
-            alt={titleText}
-            class="object-contain max-w-85 max-h-80 w-auto h-auto rounded-none"
-            style="border-radius:0;"
-          />
-        ) : (
-          <div class="text-gray-400 text-xs">No Image</div>
-        )}
-      </div>
-
-      {/* 右侧文字内容 */}
-      <div class="flex-1 min-w-0">
-        {/* 论文题目 */}
-        <div class="mb-1">
-          {titleHref ? (
-            <h2 class="text-lg font-bold leading-snug line-clamp-2">
-              <a href={titleHref} target="_blank" rel="noopener" class="hover:underline">{titleText}</a>
-            </h2>
+<article class:list={[className]}>
+  <div class="flex flex-col md:flex-row md:items-start gap-4 md:gap-6">
+      {/* 图片 */}
+      <div class="flex-shrink-0 flex items-start justify-center mx-auto md:mx-0 w-full md:w-auto">
+        <div class="w-full max-w-sm md:max-w-none md:w-[300px]">
+          {imageSrc ? (
+            <img
+              src={imageSrc}
+              alt={titleText}
+              class="w-full h-auto rounded-lg"
+              style="max-height: 250px; object-fit: contain; object-position: top;"
+            />
           ) : (
-            <h2 class="text-lg font-bold leading-snug line-clamp-2">{titleText}</h2>
+            <div class="w-full h-40 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center">
+              <span class="text-gray-400 text-xs">No Image</span>
+            </div>
           )}
         </div>
+      </div>
+
+      {/* 文字内容 */}
+      <div class="flex-1 min-w-0 text-center md:text-left">
+        {/* 论文题目 */}
+        <h2 class="text-lg font-semibold leading-tight mb-1 text-gray-900 dark:text-gray-100">
+          {titleHref ? (
+            <a href={titleHref} target="_blank" rel="noopener" class="hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-200">
+              {titleText}
+            </a>
+          ) : (
+            titleText
+          )}
+        </h2>
+        
         {/* 论文组织 */}
-        <div class="mb-1">
-          <span class="text-sm text-gray-600 dark:text-gray-400">{affiliations.join(' • ')}</span>
+        <div class="mb-3">
+          <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+            {affiliations.join(' • ')}
+          </p>
         </div>
+        
         {/* 按钮区 */}
-        <div class="flex flex-wrap gap-2 items-center mt-2">
+        <div class="flex flex-wrap gap-3 justify-center md:justify-start">
           {linkEntries.map(([key, val]) => {
             const rawUrl = typeof val === 'string' ? val : (val && val.url) ? val.url : null;
             const url = rawUrl && String(rawUrl).trim() !== '' ? rawUrl : null;
             const color = typeof val === 'string' ? null : (val && val.color) ? val.color : null;
             const label = (typeof val === 'object' && val && val.label) ? val.label : key;
+            
             if (url) {
               return (
                 <a
                   href={url}
                   target="_blank"
-                  class={`text-xs font-medium px-2 py-0.5 rounded ${color ? 'border hover:underline' : 'text-blue-600 hover:underline'}`}
+                  class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 hover:border-gray-400 dark:hover:border-gray-500 transition-all duration-200"
                   style={color ? `color: ${color}; border-color: ${color}` : undefined}
                 >
                   {label}
@@ -73,7 +78,7 @@ const titleHref = (title && typeof title === 'object' && title.url) ? title.url 
             }
             return (
               <span
-                class={`text-xs font-medium px-2 py-0.5 rounded ${color ? 'border' : 'text-gray-500'}`}
+                class="inline-flex items-center px-3 py-1 text-xs font-medium rounded-full border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400"
                 style={color ? `color: ${color}; border-color: ${color}` : undefined}
               >
                 {label}
