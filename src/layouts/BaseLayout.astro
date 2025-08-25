@@ -39,14 +39,18 @@ const maxWidthClasses = {
     </script>
     <ClientRouter />
   </head>
-  <body class="bg-main text-main">
-    <div class={`flex flex-col min-h-screen px-4 md:px-8 mx-auto ${maxWidthClasses[maxWidth]}`}>
-      <Nav />
-      {showHeader && <Header />}
-      <main class="grow w-full">
+  <body class="bg-main text-main" style="overflow-y: scroll;">
+    <div class="flex flex-col min-h-screen">
+      <div class="px-4 md:px-8 mx-auto max-w-3xl w-full">
+        <Nav />
+        {showHeader && <Header />}
+      </div>
+      <main class={`grow px-4 md:px-8 mx-auto w-full ${maxWidthClasses[maxWidth]}`}>
         <slot />
       </main>
-      <Footer />
+      <div class={`px-4 md:px-8 mx-auto w-full ${maxWidthClasses[maxWidth]}`}>
+        <Footer />
+      </div>
     </div>
     <ImgModel client:load />
   </body>

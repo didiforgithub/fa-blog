@@ -29,7 +29,6 @@ export type SiteConfig = {
   description: string;
   image?: Image;
   headerNavLinks?: Link[];
-  footerNavLinks?: Link[];
   socialLinks?: Link[];
   hero?: Hero;
   subscribe?: Subscribe;
@@ -62,12 +61,6 @@ const siteConfig: SiteConfig = {
     {
       text: 'Tags',
       href: '/tags'
-    }
-  ],
-  footerNavLinks: [
-    {
-      text: 'GitHub',
-      href: 'https://github.com/FoundationAgents'
     }
   ],
   socialLinks: [
