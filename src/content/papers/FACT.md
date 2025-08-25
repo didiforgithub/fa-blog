@@ -7,6 +7,8 @@ affiliations:
   - 'Université de Montréal & Mila'
   - 'Google'
 links:
+  NAACL 2025:
+    color: '#a20df0'
   arxiv:
     color: '#0d7ff0'
     url: 'https://arxiv.org/abs/2410.21012'

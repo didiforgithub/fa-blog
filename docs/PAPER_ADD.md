@@ -59,8 +59,6 @@ links:
 
 - 说明：当 `url` 为空或缺失时，页面会默认渲染为不可点击的灰色/带边框文本（无 hover underline）。
 
-- priority: 可选数字（越大越靠前），用于在论文列表页控制排序。缺省时按 `year` 降序再按文件名稳定排序。
-
 示例完整 frontmatter
 
 ```yaml
@@ -83,5 +81,4 @@ links:
     color: '#f00d0d'
 priority: 230800352
 ---
-文章内容在此开始。
 ```
