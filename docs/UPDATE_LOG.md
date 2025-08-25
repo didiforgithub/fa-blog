@@ -61,6 +61,22 @@
 - Yale University → Yale
 - Stanford University → Stanford
 - University of Pennsylvania → UPenn
+- Westlake University → Westlake
+- University of Sydney → USYD
+- University of Southern California → USC
+- University of Georgia → UGA
+- The Ohio State University → OSU
+- Duke University → Duke
+- The Hong Kong Polytechnic University → PolyU
+- Shenzhen University → SZU
+- University of Notre Dame → Notre Dame
+- The University of Hong Kong → HKU
+- East China Normal University → ECNU
+- Beijing University of Technology → BJUT
+- Tsinghua University → Tsinghua
+- Hohai University → HHU
+- South China Normal University → SCNU
+- McGill University → McGill
 
 **研究机构**:
 - King Abdullah University of Science and Technology → KAUST
@@ -69,12 +85,20 @@
 - University of Illinois at Urbana-Champaign → UIUC
 - Google DeepMind → DeepMind
 - Canada CIFAR AI Chair → CIFAR
+- Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences → SIAT-CAS
 
 **其他组织**:
 - Mila- Quebec AI Institute → Mila
 - Argonne National Laboratory → ANL
 - Penn State University → PSU
 - The Swiss AI Lab IDSIA/USI/SUPSI → IDSIA
+- AI Initiative → AI Initiative
+- Independent Researcher → Independent
+- Google → Google
+- Simpleway.AI → Simpleway.AI
+- DeepWisdom → DeepWisdom
+- MetaGPT → MetaGPT
+- NUS → NUS
 
 ### 🔧 技术改进
 

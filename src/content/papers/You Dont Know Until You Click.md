@@ -4,13 +4,13 @@ title:
   url: 'https://arxiv.org/abs/2508.14104'
 affiliations:
   - 'DeepWisdom'
-  - 'Fudan University'
+  - 'Fudan'
   - 'HKUST(GZ)'
-  - 'UC San Diego'
+  - 'UCSD'
   - 'KAUST'
-  - 'Westlake University'
-  - 'Stanford University'
-  - 'Yale University'
+  - 'Westlake'
+  - 'Stanford'
+  - 'Yale'
   - 'NUS'
 links:
   GitHub:
