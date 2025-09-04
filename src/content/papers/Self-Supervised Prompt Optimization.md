@@ -8,8 +8,8 @@ affiliations:
   - 'Independent'
   - 'Yale'
 links:
-  EMNLP 2025 Oral:
-    color: '#f00d0d'
+  EMNLP 2025:
+    color: '#a20df0'
   GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/FoundationAgents/SPO'
