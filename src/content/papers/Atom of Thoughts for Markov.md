@@ -7,6 +7,8 @@ affiliations:
   - 'DeepWisdom'
   - 'RUC'
 links:
+  NeurIPS 2025:
+    color: '#a20df0'
   GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/qixucen/atom'
