@@ -7,9 +7,12 @@ affiliations:
   - 'DeepWisdom'
   - 'RUC'
 links:
-  NeurIPS 2025:
-    color: '#a20df0'
-    url: 'https://openreview.net/forum?id=qXSFkP0ELS'
+  # NeurIPS 2025:
+  #   color: '#a20df0'
+  #   url: 'https://openreview.net/forum?id=qXSFkP0ELS'
+  ICLR 2025 Oral:
+    color: '#f00d0d'
+    url: 'https://iclr.cc/virtual/2025/poster/27691'
   GitHub:
     color: '#0d7ff0'
     url: 'https://github.com/qixucen/atom'
